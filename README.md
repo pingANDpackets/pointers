@@ -6,4 +6,5 @@
 2. network-troubleshooting -
 
    (A) check hostfile entry of the service you are trying to connect
-   (b) ping the service and see if response is coming 
+   (b) ping the service and see if response is coming
+   (c) check if the service is listening on 0.0.0.0 as some services are configured to listen on localhost only
