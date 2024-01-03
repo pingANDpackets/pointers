@@ -14,4 +14,9 @@
 
 4. in case systemd's config is tweaked ( example in case of tomcat server setup) , we have to use systemctl daemon reload before starting the service ( systemctl start tomcat)
 
-5. 
+5. Networking -
+
+   (a) OSI model
+
+   ![image](https://github.com/pingANDpackets/pointers/assets/120235206/b33fb12f-1077-4be8-8826-9b1d12984e54)
+
