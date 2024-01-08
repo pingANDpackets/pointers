@@ -20,3 +20,28 @@
 
    ![image](https://github.com/pingANDpackets/pointers/assets/120235206/b33fb12f-1077-4be8-8826-9b1d12984e54)
 
+   (b) general commands -
+   ifconfig / ip addr show - info abut nics (loopback address is the local area network)
+   
+   ping <ip> / ping <servername> {must be present in hostsname for name resolution)
+   
+   traceroute - to identify the complete path to the destination { can help in identifying the latency between the hops }
+   
+   netstat -antp/ ss -tunlp - show all the tcp ports that are opened on the system
+
+   nmap <server> - scan the ports on the server { troubleshoot if ports ar eopen if 2 servcice are not connecting)
+
+   dig <server-name > / nslookup <server >   -  shows the correct name of the server is resolving to the correct ip
+
+   route -n   - to look for the gateways for route tables
+
+   arp - shows the mapping of the servers to their mac addresses
+
+   mtr <server-name >  - shows the hops taken to reach the server and identify the places for packet loss
+
+   telnet <server>  <port>  - investigate if we are able to connect
+
+   nmap <server > 
+
+   
+
