@@ -113,7 +113,6 @@ docker rmi a54ee9c44b3b 6130c26b5558 057d51c0049c 825d55fb6340 12766a6745ee feb5
 
 
 
-   nmap <server > 
 
    
 
